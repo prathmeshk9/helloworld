@@ -1,13 +1,10 @@
-public class HelloWorld{
-	import java.text.ParseException;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.StringTokenizer;
-
-public class Main {
-
+public class HelloWorld{
 	public static void main(String[] args) {
 
 		String time1 =  "18:25:00.000000";
@@ -65,6 +62,4 @@ public class Main {
         }
         return sdfs1.format(dt1);
     }
-
-}
 }
